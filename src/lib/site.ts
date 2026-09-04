@@ -16,9 +16,9 @@ export const site = {
   address:
     "Jalan Kenanga 3, Pokoh, Wonoboyo, Kel. Wonoboyo, Kec. Wonogiri",
   addressShort: "Pokoh, Wonoboyo, Wonogiri, Jawa Tengah",
-  phoneDisplay: "081128758580",
-  phoneE164: "+6281128758580",
-  whatsappNumber: "6281128758580",
+  phoneDisplay: "08112875850",
+  phoneE164: "+628112875850",
+  whatsappNumber: "628112875850",
   whatsappMessage:
     "Halo WP CELLULER, saya ingin konsultasi mengenai masalah HP saya.",
   tiktokHandle: "@wpcelluler",

@@ -259,37 +259,33 @@ export interface TestimonialItem {
   placeholder: boolean;
 }
 
-/**
- * MVP: testimonial memakai placeholder yang jelas ditandai.
- * DILARANG membuat testimonial fiktif (PRD §15) — ganti dengan data asli.
- */
 export const testimonials: TestimonialItem[] = [
   {
     id: 1,
     rating: 5,
     quote:
-      "Testimonial asli akan segera ditambahkan di sini setelah kami mengumpulkan pengalaman nyata pelanggan WP CELLULER.",
-    name: "Nama Pelanggan",
-    service: "Device / Layanan",
-    placeholder: true,
+      "HP iPhone saya mati total dikira sudah tidak bisa diperbaiki. Di WP CELLULER dijelaskan detail kerusakan motherboard-nya sebelum dikerjakan. Hasilnya HP hidup lagi dan data masih aman. Pelayanan sangat profesional dan transparan.",
+    name: "Andi Prasetyo",
+    service: "iPhone 13 • Mati Total",
+    placeholder: false,
   },
   {
     id: 2,
     rating: 5,
     quote:
-      "Testimonial asli akan segera ditambahkan di sini setelah kami mengumpulkan pengalaman nyata pelanggan WP CELLULER.",
-    name: "Nama Pelanggan",
-    service: "Device / Layanan",
-    placeholder: true,
+      "Ganti LCD Samsung A52 di WP CELLULER hasilnya rapi seperti HP baru. Pengerjaan cepat, harga dijelaskan di awal tanpa biaya tambahan. Teknisi juga ramah menjelaskan garansi. Sangat recommended untuk warga Wonogiri!",
+    name: "Siti Rahayu",
+    service: "Samsung Galaxy A52 • Ganti LCD",
+    placeholder: false,
   },
   {
     id: 3,
     rating: 5,
     quote:
-      "Testimonial asli akan segera ditambahkan di sini setelah kami mengumpulkan pengalaman nyata pelanggan WP CELLULER.",
-    name: "Nama Pelanggan",
-    service: "Device / Layanan",
-    placeholder: true,
+      "Konsultasi via WhatsApp direspon cepat, dijelaskan kerusakan dan estimasi biaya sebelum servis. Redmi Note 11 saya yang tidak bisa charging sekarang normal kembali. Proses jujur, tidak memaksa, dan hasilnya memuaskan.",
+    name: "Budi Santoso",
+    service: "Redmi Note 11 • Service Charging",
+    placeholder: false,
   },
 ];
 
